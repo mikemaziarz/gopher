@@ -1,12 +1,46 @@
-# React + Vite
+# Gopher 🏌️‍♂️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Gopher** is a personal web app project to track golf rounds, calculate a USGA-compliant handicap index, and store round memories (like photos!). It’s being built as a learning journey by a first-time developer — a *citizen coder* — using ChatGPT as an AI co-developer.
 
-Currently, two official plugins are available:
+## 🔭 Purpose
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project serves two goals:
+1. Build a fully functional golf handicap tracker with multi-user support.
+2. Demonstrate what's possible when non-engineers build apps with AI-powered help.
 
-## Expanding the ESLint configuration
+## 🌟 Features (MVP)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Track past and future golf rounds
+- Edit round history
+- Upload photos or files for each round
+- View your handicap index on a dashboard
+- Filter, sort, and view round stats
+- Role-based access:
+  - **Players** see their data
+  - **Admins** can view all players
+
+## 🛠 Tech Stack
+
+- **Frontend**: React + Tailwind CSS
+- **Backend**: Supabase (PostgreSQL, Auth, File Storage)
+- **Hosting**: Vercel or Netlify (TBD)
+- **Dev Tools**: GitHub, ChatGPT (4o)
+
+## 📖 Project Journal
+
+This is part of a public learning series to document the journey of building a web app from scratch with ChatGPT.
+
+📝 [Read the full project journal](#) (link coming soon)
+
+## 🚀 Status
+
+🟢 Planning & data modeling in progress  
+🔜 Database schema setup → frontend scaffolding → auth → file uploads
+
+## 🤝 License
+
+MIT — use and remix as you like. If you’re building something similar, feel free to fork!
+
+---
+
+*Built by Mike Maz — citizen coder and golf junkie.*
